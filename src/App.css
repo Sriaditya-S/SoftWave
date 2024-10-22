@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #101010;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-btn {
+  background-color: #00FF00;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-btn:hover {
+  background-color: #008000;
+}
+
+/* Main Section */
+main {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.for-text {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.for-text span {
+  color: #00FF00;
+  margin-left: 5px;
+}
+
+/* Buttons Section */
+.main-buttons {
+  margin: 40px 0;
+}
+
+.our-works-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.our-works-btn:hover {
+  background-color: #555;
+}
+
+/* Client Section */
+.client-section {
+  padding: 50px 0;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clients img {
+  width: 100px;
+  margin: 0 10px;
 }
