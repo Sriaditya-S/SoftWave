@@ -126,15 +126,27 @@ h1 {
 
 .clients {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
+  gap: 20px; /* Space between the client divs */
+  justify-content: space-around; /* Distributes space between items */
+  flex-wrap: wrap; /* Wrap items to the next line if the container is too small */
 }
 
-.clients img {
-  width: 100px;
+.client {
+  display: flex;
+  align-items: center; /* Vertically center the logo and text */
+  gap: 10px; /* Space between logo and text */
+  padding: 10px; /* Add some padding around each client */
+  border: 1px solid #ddd; /* Optional: to give each item a border */
+  border-radius: 8px; /* Optional: round the corners */
 }
 
+.client img {
+  height: 50px; /* Set a consistent height for the logos */
+}
+
+.client span {
+  font-size: 18px; /* Adjust the font size for the text */
+}
 /* FAQ Section */
 .faq-section {
   background-color: #222;

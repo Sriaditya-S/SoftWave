@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import "./App.css"; // Import the CSS
 
+import { AiOutlineSpotify } from "react-icons/ai";
+import { TbBrandZapier } from "react-icons/tb";
+import { PiSlackLogoThin } from "react-icons/pi";
+import { AiFillAmazonSquare } from "react-icons/ai";
+import { SiAdobe } from "react-icons/si";
+import { FaVideo } from "react-icons/fa";
+
+
+
 const App = () => {
   const [faqOpen, setFaqOpen] = useState(1); // To toggle FAQs
 
@@ -46,13 +55,37 @@ const App = () => {
         <div className="client-section">
           <h3>Trusted By 250+ Companies</h3>
           <div className="clients">
-            <img src="zapier-logo-url" alt="Zapier" />
-            <img src="spotify-logo-url" alt="Spotify" />
-            <img src="zoom-logo-url" alt="Zoom" />
-            <img src="slack-logo-url" alt="Slack" />
-            <img src="amazon-logo-url" alt="Amazon" />
-            <img src="adobe-logo-url" alt="Adobe" />
-          </div>
+            <div className="client">
+              <TbBrandZapier size={50} />
+              <span>Zapier</span>
+            </div>
+
+            <div className="client">
+              <AiOutlineSpotify size={50} />
+              <span>Spotify</span>
+            </div>
+
+            <div className="client">
+              <FaVideo size={50} />
+              <span>Zoom</span>
+            </div>
+
+            <div className="client">
+              <PiSlackLogoThin size={50} />
+              <span>Slack</span>
+            </div>
+
+            <div className="client">
+              <AiFillAmazonSquare size={50} />
+              <span>Amazon</span>
+            </div>
+
+            <div className="client">
+              <SiAdobe size={50} />
+              <span>Adobe</span>
+            </div>
+
+        </div>
         </div>
       </main>
 
