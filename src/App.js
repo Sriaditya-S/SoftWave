@@ -104,8 +104,15 @@ const App = () => {
             </div>
           </div>
           <div className="form-group">
-            <label>Your Budget</label>
-            <input type="range" min="1000" max="50000" step="1000" />
+            <label>Your Budget: ₹<span id="budgetValue">25000</span></label>
+            <input 
+              type="range" 
+              min="1000" 
+              max="50000" 
+              step="1000" 
+              defaultValue="25000"
+              onChange={(e) => document.getElementById('budgetValue').textContent = e.target.value}
+            />
           </div>
           <textarea placeholder="Your Message"></textarea>
           <button type="submit">Submit</button>
