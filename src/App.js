@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "./App.css"; // Import the CSS
-
+import { FaInstagram } from "react-icons/fa";
 import { AiOutlineSpotify } from "react-icons/ai";
 import { TbBrandZapier } from "react-icons/tb";
 import { PiSlackLogoThin } from "react-icons/pi";
 import { AiFillAmazonSquare } from "react-icons/ai";
 import { SiAdobe } from "react-icons/si";
 import { FaVideo } from "react-icons/fa";
-
+import { FaXTwitter } from "react-icons/fa6";
+import { SlSocialLinkedin } from "react-icons/sl";
 
 
 const App = () => {
@@ -22,7 +23,7 @@ const App = () => {
       {/* Header Section */}
       <header>
         <div className="logo">
-          <img src="your-logo-url" alt="Logo" />
+          <span className="logo-text">SOFTWAVE</span>
         </div>
         <nav className="nav-links">
           <a href="#home">Home</a>
@@ -37,7 +38,7 @@ const App = () => {
 
       {/* Main Section */}
       <main>
-        <h1>A Digital Product Studio that will Work</h1>
+        <h1>Crafting Digital Solutions That Drive Success</h1>
         <p className="for-text">
           For
           <span> Startups</span>,
@@ -92,7 +93,7 @@ const App = () => {
       {/* FAQ Section */}
       <section className="faq-section">
         <h2>Frequently Asked Questions</h2>
-        <p>Still have any questions? Contact our team via hello@Softwave.com</p>
+        <p>Still have any questions? Contact our team via softwavesolutions@gmail.com</p>
 
         <div className="faq-container">
           {[
@@ -163,9 +164,9 @@ const App = () => {
             <p>Location: India</p>
           </div>
           <div className="social-links">
-            <a href="https://www.instagram.com/softwave_co?igsh=cDU4c3hheW1rdGM0">Instagram</a> {" "}
-            <a href="https://x.com/Softwave_135?t=dw7J_p4OX84nBLMfz-m4ow&s=08">Twitter</a> {" "}
-            <a href="https://www.linkedin.com/company/soft-wavesolutions/">LinkedIn</a>
+            <a href="https://www.instagram.com/softwave_co?igsh=cDU4c3hheW1rdGM0"><FaInstagram size={40}/></a> {" "}
+            <a href="https://x.com/Softwave_135?t=dw7J_p4OX84nBLMfz-m4ow&s=08"><FaXTwitter size={40}/></a> {" "}
+            <a href="https://www.linkedin.com/company/soft-wavesolutions/"><SlSocialLinkedin size={40}/></a>
           </div>
         </div>
       </footer>
