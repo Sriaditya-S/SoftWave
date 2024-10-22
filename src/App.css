@@ -256,24 +256,21 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  padding: 20px;
 }
 
-.footer-logo img {
-  width: 50px;
+.footer-logo, .contact-info, .social-links {
+  flex: 1;
 }
 
-.footer-nav {
-  display: flex;
-  gap: 20px;
+.contact-info {
+  text-align: center;
 }
 
-.footer-nav a {
-  color: white;
-  text-decoration: none;
+.social-links {
+  text-align: right;
 }
 
-.contact-info p,
 .social-links a {
-  color: white;
+  margin-left: 10px;
 }

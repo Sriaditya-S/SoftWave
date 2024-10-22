@@ -155,26 +155,17 @@ const App = () => {
       {/* Footer Section */}
       <footer>
         <div className="footer-container">
-          <div className="footer-logo">
-            <img src="your-logo-url" alt="Logo" />
-          </div>
-          <div className="footer-nav">
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#work">Work</a>
-            <a href="#process">Process</a>
-            <a href="#about">About</a>
-            <a href="#careers">Careers</a>
-          </div>
+          
+          
           <div className="contact-info">
-            <p>Email: hello@Softwave.com</p>
-            <p>Phone: +91 011-2332333</p>
-            <p>Location: Somewhere in the World</p>
+            <p>Email: softwavesolutions@gmail.com</p>
+            <p>Phone: +91 6382083873</p>
+            <p>Location: India</p>
           </div>
           <div className="social-links">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
+            <a href="https://www.instagram.com/softwave_co?igsh=cDU4c3hheW1rdGM0">Instagram</a> {" "}
+            <a href="https://x.com/Softwave_135?t=dw7J_p4OX84nBLMfz-m4ow&s=08">Twitter</a> {" "}
+            <a href="https://www.linkedin.com/company/soft-wavesolutions/">LinkedIn</a>
           </div>
         </div>
       </footer>
