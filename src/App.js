@@ -55,6 +55,8 @@ const App = () => {
         {/* Client Section */}
         <div className="client-section">
           <h3>Trusted By 250+ Companies</h3>
+          <br></br>
+          <br></br>
           <div className="clients">
             <div className="client">
               <TbBrandZapier size={50} />
