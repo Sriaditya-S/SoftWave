@@ -96,6 +96,7 @@ const App = () => {
       <section className="faq-section">
         <h2>Frequently Asked Questions</h2>
         <p>Still have any questions? Contact our team via softwavesolutions@gmail.com</p>
+        <br></br>
 
         <div className="faq-container">
           {[
